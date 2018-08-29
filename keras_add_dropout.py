@@ -1,4 +1,5 @@
-#chuong trinh keras cai tien mo hinh huan luyen bang cach them vao cac hidden layer
+#chuong trinh keras cai tien mo hinh huan luyen bang cach them vao dropdout layer de tong quat hon voi nhung du lieu unseen
+
 import numpy as np
 from keras.datasets import mnist
 from keras.models import Sequential
