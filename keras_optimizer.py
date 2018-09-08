@@ -10,11 +10,11 @@ from keras.utils import np_utils
 np.random.seed(1671)
 
 #huan luyen mang
-NB_EPOCH=20
+NB_EPOCH=40
 BATCH_SIZE=128
 VERBOSE=1
 NB_CLASSES=10 #so lop ngo ra, trong truong hop nay la 10
-OPTIMIZER=RMSprop() #optimizer
+OPTIMIZER=Adam() #optimizer
 N_HIDDEN=128
 VALIDATION_SPLIT=0.2 #dung 20% cua train lam validation
 DROPOUT=0.3

@@ -7,7 +7,7 @@ from keras.utils import np_utils
 np.random.seed(1671)
 
 #huan luyen mang
-NB_EPOCH=200
+NB_EPOCH=20
 BATCH_SIZE=128
 VERBOSE=1
 NB_CLASSES=10 #so lop ngo ra, trong truong hop nay la 10
