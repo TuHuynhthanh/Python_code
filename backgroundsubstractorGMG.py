@@ -6,6 +6,7 @@ fgbg = cv.bgsegm.createBackgroundSubtractorGMG()
 while(1):
     ret, frame = cap.read()
     fgmask = fgbg.apply(frame)
+    fgmask = cv.morphologyEx(fgmask, cv.MORPH_OPEN, kernel)
     cv.imshow('frame',fgmask)
     cv.imshow('video',frame)
     
